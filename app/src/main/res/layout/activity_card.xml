@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/cardNum"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="Card Number"
+        android:inputType="number"
+        android:background="#F0F0F0"
+        android:padding="16dp"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/expiry"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="MM/YY"
+        android:background="#F0F0F0"
+        android:padding="16dp"
+        android:layout_marginTop="12dp"/>
+
+    <EditText
+        android:id="@+id/cvv"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:hint="CVV"
+        android:inputType="numberPassword"
+        android:background="#F0F0F0"
+        android:padding="16dp"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/payCardBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Pay Rs.1"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
